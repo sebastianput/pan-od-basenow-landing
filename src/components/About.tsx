@@ -10,20 +10,20 @@ const About = () => {
               O Nas
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Jesteśmy zespołem doświadczonych specjalistów z pasją do tworzenia 
-              wyjątkowych przestrzeni basenowych. Od ponad 15 lat realizujemy 
-              marzenia naszych klientów o idealnym basenie.
+              Jesteśmy zespołem doświadczonych specjalistów zajmujących się profesjonalnym 
+              czyszczeniem, serwisem i konserwacją basenów. Od ponad 15 lat dbamy o baseny 
+              w województwach śląskim, opolskim i dolnośląskim.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nasza firma to gwarancja najwyższej jakości wykonania, 
-              profesjonalnego podejścia i indywidualnego traktowania każdego projektu. 
-              Współpracujemy tylko z najlepszymi dostawcami i używamy sprawdzonych technologii.
+              Nasza firma to gwarancja najwyższej jakości usług, terminowości 
+              i profesjonalnego podejścia. Dysponujemy nowoczesnym sprzętem 
+              i używamy sprawdzonych metod czyszczenia oraz konserwacji.
             </p>
             
             <div className="grid grid-cols-2 gap-6 py-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-pool mb-2">250+</div>
-                <div className="text-sm text-muted-foreground">Zrealizowanych Projektów</div>
+                <div className="text-3xl font-bold text-pool mb-2">500+</div>
+                <div className="text-sm text-muted-foreground">Obsługiwanych Basenów</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-pool mb-2">15+</div>
@@ -40,7 +40,7 @@ const About = () => {
             </div>
             
             <Button variant="water" size="lg" className="mt-6">
-              Poznaj Nasz Zespół
+              Sprawdź Nasze Rejony
             </Button>
           </div>
           
@@ -50,23 +50,23 @@ const About = () => {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-pool-crystal mr-3 mt-1">✓</span>
-                  <span>Bezpłatna wycena i doradztwo techniczne</span>
+                  <span>Bezpłatny przegląd i doradztwo techniczne</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-pool-crystal mr-3 mt-1">✓</span>
-                  <span>Gwarancja jakości do 10 lat</span>
+                  <span>Obsługa 3 województw: śląskie, opolskie, dolnośląskie</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-pool-crystal mr-3 mt-1">✓</span>
-                  <span>Realizacja w terminie zgodnie z umową</span>
+                  <span>Terminowe wykonanie usług</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-pool-crystal mr-3 mt-1">✓</span>
-                  <span>Kompleksowa obsługa od A do Z</span>
+                  <span>Profesjonalny sprzęt i środki chemiczne</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-pool-crystal mr-3 mt-1">✓</span>
-                  <span>Najnowsze technologie i materiały</span>
+                  <span>Serwis awaryjny 24/7 w sezonie</span>
                 </li>
               </ul>
             </div>

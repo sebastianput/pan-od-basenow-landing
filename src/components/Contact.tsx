@@ -10,8 +10,8 @@ const Contact = () => {
             Skontaktuj Się z Nami
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Masz pytania? Potrzebujesz wyceny? Zadzwoń lub napisz do nas. 
-            Odpowiemy na wszystkie Twoje pytania!
+            Potrzebujesz czyszczenia lub serwisu basenu? Obsługujemy województwa 
+            śląskie, opolskie i dolnośląskie. Skontaktuj się z nami!
           </p>
         </div>
         
@@ -46,27 +46,27 @@ const Contact = () => {
               <CardTitle className="text-pool-deep">Adres</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-lg font-bold text-pool mb-2">ul. Basenowa 123</p>
-              <p className="text-muted-foreground">00-001 Warszawa</p>
-              <p className="text-muted-foreground">Polska</p>
+              <p className="text-lg font-bold text-pool mb-2">ul. Serwisowa 45</p>
+              <p className="text-muted-foreground">40-001 Katowice</p>
+              <p className="text-muted-foreground">woj. śląskie</p>
             </CardContent>
           </Card>
         </div>
         
         <div className="bg-gradient-to-r from-pool to-pool-deep rounded-2xl p-8 lg:p-12 text-center text-white">
           <h3 className="text-3xl md:text-4xl font-bold mb-6">
-            Gotowy na Basen Marzeń?
+            Potrzebujesz Serwisu Basenu?
           </h3>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Umów się na bezpłatną konsultację i wycenę. Nasi eksperci pomogą Ci 
-            zaprojektować idealny basen dla Twojego domu.
+            Umów się na bezpłatny przegląd i wycenę. Nasi specjaliści zadbają 
+            o Twój basen w województwach śląskim, opolskim i dolnośląskim.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" size="lg" className="bg-white text-pool-deep hover:bg-pool-light border-white">
-              Umów Konsultację
+              Umów Przegląd
             </Button>
             <Button variant="ghost" size="lg" className="text-white border-white border hover:bg-white/20">
-              Pobierz Katalog
+              Cennik Usług
             </Button>
           </div>
         </div>

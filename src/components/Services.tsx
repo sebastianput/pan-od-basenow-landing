@@ -2,34 +2,34 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    title: "Projektowanie Basenów",
-    description: "Indywidualne projekty dostosowane do Twojego ogrodu i potrzeb. Nowoczesne rozwiązania techniczne i estetyczne.",
-    icon: "🏗️"
+    title: "Czyszczenie Basenów",
+    description: "Kompleksowe czyszczenie dna, ścian i powierzchni wody. Usuwanie zanieczyszczeń, liści i innych osadów.",
+    icon: "🧽"
   },
   {
-    title: "Budowa Basenów",
-    description: "Kompleksowa realizacja od wykopów po wykończenie. Używamy najwyższej jakości materiałów i sprawdzonych technologii.",
-    icon: "🏊‍♂️"
-  },
-  {
-    title: "Systemy Filtracji",
-    description: "Zaawansowane systemy oczyszczania wody zapewniające krystaliczną czystość przez cały sezon.",
-    icon: "💧"
-  },
-  {
-    title: "Automatyka Basenowa",
-    description: "Inteligentne systemy sterowania temperatura, oświetleniem i chemią wody. Wszystko w jednej aplikacji.",
-    icon: "🤖"
-  },
-  {
-    title: "Serwis i Konserwacja",
-    description: "Regularne przeglądy, czyszczenie i konserwacja. Dbamy o Twój basen przez cały rok.",
+    title: "Serwis Techniczny",
+    description: "Profesjonalny serwis pomp, filtrów, systemów grzewczych i automatyki basenowej. Szybka diagnostyka i naprawa.",
     icon: "🔧"
   },
   {
-    title: "Akcesoria Basenowe",
-    description: "Pełny asortyment akcesoriów: pokrywy, drabinki, oświetlenie LED, systemy grzewcze i wiele więcej.",
-    icon: "🏖️"
+    title: "Konserwacja Sezonowa",
+    description: "Przygotowanie basenu na sezon letni i zimowy. Zabezpieczenie instalacji przed mrozem.",
+    icon: "❄️"
+  },
+  {
+    title: "Chemia Wody",
+    description: "Testowanie i regulacja poziomu pH, chloru i innych parametrów wody. Zapewniamy bezpieczną kąpiel.",
+    icon: "⚗️"
+  },
+  {
+    title: "Naprawa Usterek",
+    description: "Szybka naprawa przecieków, uszkodzeń folii, problemów z filtracją i automatyką basenową.",
+    icon: "🛠️"
+  },
+  {
+    title: "Wymiana Wyposażenia",
+    description: "Wymiana zużytych filtrów, pomp, lamp i innych elementów wyposażenia basenowego.",
+    icon: "🔄"
   }
 ];
 
@@ -42,8 +42,8 @@ const Services = () => {
             Nasze Usługi
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Oferujemy kompleksowe rozwiązania dla Twojego wymarzonego basenu. 
-            Od projektu po codzienną obsługę.
+            Kompleksowe usługi czyszczenia, serwisu i konserwacji basenów w województwach 
+            śląskim, opolskim i dolnośląskim.
           </p>
         </div>
         

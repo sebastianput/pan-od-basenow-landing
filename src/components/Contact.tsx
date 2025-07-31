@@ -22,7 +22,7 @@ const Contact = () => {
               <CardTitle className="text-pool-deep">Telefon</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-2xl font-bold text-pool mb-2">+48 123 456 789</p>
+              <p className="text-2xl font-bold text-pool mb-2">+48 662 613 660</p>
               <p className="text-muted-foreground">Poniedziałek - Piątek: 8:00 - 18:00</p>
               <p className="text-muted-foreground">Sobota: 9:00 - 15:00</p>
             </CardContent>

@@ -12,11 +12,11 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-white hover:text-pool-crystal transition-colors">Strona Główna</a>
-            <a href="#" className="text-white hover:text-pool-crystal transition-colors">Usługi</a>
-            <a href="#" className="text-white hover:text-pool-crystal transition-colors">O Nas</a>
-            <a href="#" className="text-white hover:text-pool-crystal transition-colors">Realizacje</a>
-            <a href="#" className="text-white hover:text-pool-crystal transition-colors">Kontakt</a>
+            <a href="#hero" className="text-white hover:text-pool-crystal transition-colors">Strona Główna</a>
+            <a href="#services" className="text-white hover:text-pool-crystal transition-colors">Usługi</a>
+            <a href="#about" className="text-white hover:text-pool-crystal transition-colors">O Nas</a>
+            <a href="#services" className="text-white hover:text-pool-crystal transition-colors">Realizacje</a>
+            <a href="#contact" className="text-white hover:text-pool-crystal transition-colors">Kontakt</a>
           </nav>
           
           <Button variant="outline" className="border-white text-white hover:bg-white hover:text-pool-deep">

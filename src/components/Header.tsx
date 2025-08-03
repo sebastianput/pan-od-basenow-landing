@@ -19,9 +19,11 @@ const Header = () => {
             <a href="#contact" className="text-white hover:text-pool-crystal transition-colors">Kontakt</a>
           </nav>
           
-          <Button variant="outline" className="border-white text-white hover:bg-white hover:text-pool-deep">
-            Zadzwoń Teraz
-          </Button>
+          <a href="tel:+48662613660">
+            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-pool-deep">
+              Zadzwoń Teraz
+            </Button>
+          </a>
         </div>
       </div>
     </header>

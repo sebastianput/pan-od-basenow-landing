@@ -61,14 +61,6 @@ const Contact = () => {
             Umów się na bezpłatny przegląd i wycenę. Nasi specjaliści zadbają 
             o Twój basen w województwach śląskim, opolskim i dolnośląskim.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" size="lg" className="bg-white text-pool-deep hover:bg-pool-light border-white">
-              Umów Przegląd
-            </Button>
-            <Button variant="ghost" size="lg" className="text-white border-white border hover:bg-white/20">
-              Cennik Usług
-            </Button>
-          </div>
         </div>
       </div>
     </section>

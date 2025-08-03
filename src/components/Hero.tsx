@@ -25,14 +25,6 @@ const Hero = () => {
             Profesjonalne czyszczenie, serwis i konserwacja basenów w województwach śląskim, 
             opolskim i dolnośląskim. Dbamy o Twój basen przez cały rok.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Bezpłatny Przegląd
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-pool-deep">
-              Nasze Usługi
-            </Button>
-          </div>
         </div>
       </div>
       

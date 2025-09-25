@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]   # <-- działa niezależnie czy masz main czy master
   workflow_dispatch:
 
 permissions:
@@ -33,18 +33,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Debug – pokaż zawartość dist i przerwij, jeśli nie ma index.html
       - name: List dist (debug)
         run: |
           ls -la dist
           test -f dist/index.html || (echo "Brak dist/index.html!" && exit 1)
 
-      # SPA fallback dla React Routera – eliminuje 404 na podstronach
       - name: SPA fallback (index -> 404)
         run: cp dist/index.html dist/404.html
 
-      # Wyłącz Jekylla na Pages (na wszelki wypadek)
-      - name: Add .nojekyll
+      - name: Disable Jekyll
         run: touch dist/.nojekyll
 
       - name: Upload artifact
@@ -59,5 +56,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
       - id: deployment
         uses: actions/deploy-pages@v4

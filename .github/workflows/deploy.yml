@@ -33,11 +33,19 @@ jobs:
       - name: Build
         run: npm run build
 
-      # DEBUG: pokaż strukturę dist – pomoże przy 404
-      - name: List dist
+      # Debug – pokaż zawartość dist i przerwij, jeśli nie ma index.html
+      - name: List dist (debug)
         run: |
           ls -la dist
           test -f dist/index.html || (echo "Brak dist/index.html!" && exit 1)
+
+      # SPA fallback dla React Routera – eliminuje 404 na podstronach
+      - name: SPA fallback (index -> 404)
+        run: cp dist/index.html dist/404.html
+
+      # Wyłącz Jekylla na Pages (na wszelki wypadek)
+      - name: Add .nojekyll
+        run: touch dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

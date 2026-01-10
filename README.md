@@ -1,4 +1,4 @@
-# Welcome to your Lovable projec
+# Welcome to your Lovable project
 
 ## Project info
 
@@ -6,7 +6,7 @@
 
 ## How can I edit this code?
 
-There are several ways of editing your applicatio.
+There are several ways of editing your application.
 
 **Use Lovable**
 

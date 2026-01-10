@@ -4,18 +4,29 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/pan-od-basenow-landing/",   // <- DODAJ TO
+  // GitHub Pages subfolder
+  base: "/pan-od-basenow-landing/",
+
   server: {
     host: "::",
     port: 8080,
   },
+
   plugins: [
     react(),
     mode === "development" && componentTagger(),
   ].filter(Boolean),
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+
+  // poprawne asset paths dla GH Pages
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    sourcemap: false,
   },
 }));

@@ -67,7 +67,6 @@ const About = () => {
                 <li className="flex items-start">
                   <span className="text-pool-crystal mr-3 mt-1">✓</span>
                   <span>Serwis awaryjny 24/7 w sezonie</span>
-                   <span>Kocham zone</span>
                 </li>
               </ul>
             </div>
